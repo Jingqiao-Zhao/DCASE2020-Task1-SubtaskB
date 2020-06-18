@@ -12,7 +12,7 @@
 The [DCASE2020](http://dcase.community/) dataset consists of 10 classes sounds captured in airport, shopping mall, metro station, pedestrian street, public,square, street traffic, tram, bus, metro and park. This challenge provides two datasets, development and evaluation, for algorithm development. The sub-task B of TAU Urban Acoustic Scenes 2020 dataset contains 40 hour audio recordings which are balanced between classes and recorded at 48kHz sampling rate with 24-bit resolution in stereo. Each sound recording was spitted into 10-second audio samples.
 
 ## Install
-Download the [data]((https://doi.org/10.5281/zenodo.3670185) and Change the path in config.py to your own.
+Download the [data](https://doi.org/10.5281/zenodo.3670185) and Change the path in config.py to your own.
 ```sh
 $ pip install -r requirements.txt
 ```
@@ -39,7 +39,9 @@ To be more specific, we use SpecAugmen to modify spectrum maps by distorting tim
 ## Results
 ## References
 D. S. Park, W. Chan, Y. Zhang, C.-C. Chiu, B. Zoph, E. D.Cubuk, and Q. V. Le, “Specaugment: A simple data augmentation method for automatic speech recognition,” arXivpreprint arXiv:1904.08779, 2019.
+
 Y. Tang, Y. Wang, Y. Xu, B. Shi, C. Xu, C. Xu, and C. Xu,“Beyond dropout: Feature map distortion to regularize deep neural networks,” arXiv preprint arXiv:2002.11022, 2020.
+
 A. G. Howard, M. Zhu, B. Chen, D. Kalenichenko, W. Wang,T. Weyand, M. Andreetto, and H. Adam, “Mobilenets: Efficient convolutional neural networks for mobile vision applications,” arXiv preprint arXiv:1704.04861, 2017.
 
 
