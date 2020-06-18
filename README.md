@@ -4,8 +4,6 @@
 
 - [Background](#background)
 - [Install](#install)
-- [Usage](#usage)
-	- [Generator](#generator)
 - [Badge](#badge)
 - [Example Readmes](#example-readmes)
 - [Related Efforts](#related-efforts)
@@ -13,10 +11,10 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-##Background
+## Background
 The [DCASE2020](http://dcase.community/) dataset consists of 10 classes sounds captured in airport, shopping mall, metro station, pedestrian street, public,square, street traffic, tram, bus, metro and park. This challenge provides two datasets, development and evaluation, for algorithm development. The sub-task B of TAU Urban Acoustic Scenes 2020 dataset contains 40 hour audio recordings which are balanced between classes and recorded at 48kHz sampling rate with 24-bit resolution in stereo. Each sound recording was spitted into 10-second audio samples.
 
-##Install
+## Install
 
 ```sh
 $ pip install -r requirements.txt
@@ -30,3 +28,6 @@ Then
 $ python train.py
 
 ```
+## The proposed mothed
+
+
