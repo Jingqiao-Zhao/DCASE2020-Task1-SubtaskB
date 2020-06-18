@@ -29,7 +29,8 @@ $ python train.py
 
 ```
 ## The proposed mothed
-![image1]https://github.com/Jingqiao-Zhao/DCASE2020-Task1-SubtaskB/blob/master/fig5_2.png
-![image2]https://github.com/Jingqiao-Zhao/DCASE2020-Task1-SubtaskB/blob/master/fig6_2.png
+![image1](https://github.com/Jingqiao-Zhao/DCASE2020-Task1-SubtaskB/blob/master/fig5_2.png)
+
+![image2](https://github.com/Jingqiao-Zhao/DCASE2020-Task1-SubtaskB/blob/master/fig6_2.png)
 
 
