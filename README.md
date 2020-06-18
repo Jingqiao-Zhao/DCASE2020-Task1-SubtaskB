@@ -25,7 +25,7 @@ Then
 $ python train.py
 
 ```
-## The proposed mothed
+## The proposed method
 ### Specaugment
 Without sufficient training data, it is crucial to apply data augmentation to the existing training samples thus to improve the performance of a learning-based method by better exploiting the data in our hand. In sound recognition, traditional data augmentation methods include deformation of sound waves and background noise jetting. Different data augmentation methods are applied to each individual training sample. With data augmentation, we can train a network with better performance by synthesizing new training samples from the original ones. However, existing data augmentation methods, such as ASR, increase computational complexity and often require additional data.
 
