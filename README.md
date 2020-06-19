@@ -48,7 +48,7 @@ The AdamW optimizer was used for network training, with 200 epochs on an Nvidia 
 | Transportation | 97.3%         | 0.075 |
 |Average         | 92.0%         | 0.257 |
 
-![image4](https://github.com/Jingqiao-Zhao/DCASE2020-Task1-SubtaskB/blob/master/matrix.png,width="200" height="200")
+![image4](https://github.com/Jingqiao-Zhao/DCASE2020-Task1-SubtaskB/blob/master/matrix.png,width="200",height="200")
 
 
 
