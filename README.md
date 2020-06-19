@@ -18,7 +18,7 @@ $ pip install -r requirements.txt
 ```
 
 ```sh
-$ python Train.py
+$ python train.py
 
 ```
 ## The proposed method
@@ -38,6 +38,18 @@ By using depthwise separable convolution, the network architecture of our DD-CNN
 ![image4](https://github.com/Jingqiao-Zhao/DCASE2020-Task1-SubtaskB/blob/master/figure1.png)
 
 ## Results
+
+The AdamW optimizer was used for network training, with 200 epochs on an Nvidia RTX 2080ti card. The initial learning rate was set to 0.001 and the batch size was set to 16.
+
+|Scene           | Accuracy      | Loss  |
+| -------------  |:-------------:| -----:|
+| Indoor         | 89.1%         | 0.402 |
+| Outdoor        | 90.2%         | 0.296 |
+| Transportation | 97.3%         | 0.075 |
+|Average         | 92.0%         | 0.257 |
+
+![image4](https://github.com/Jingqiao-Zhao/DCASE2020-Task1-SubtaskB/blob/master/matrix.png)
+
 
 
 ## References
