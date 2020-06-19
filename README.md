@@ -29,6 +29,7 @@ $ python Train.py
 Without sufficient training data, it is crucial to apply data augmentation to the existing training samples thus to improve the performance of a learning-based method by better exploiting the data in our hand. In sound recognition, traditional data augmentation methods include deformation of sound waves and background noise jetting. Different data augmentation methods are applied to each individual training sample. With data augmentation, we can train a network with better performance by synthesizing new training samples from the original ones. However, existing data augmentation methods, such as ASR, increase computational complexity and often require additional data.
 
 ![image1](https://github.com/Jingqiao-Zhao/DCASE2020-Task1-SubtaskB/blob/master/fig5_2.png)
+
 To be more specific, we use SpecAugmen to modify spectrum maps by distorting time domain signal, masking the frequency domain channel and the time domain channel. This data augmentation method can be used to increase the robustness of the trained network to combat deformations on the time domain and partial fragment loss on the frequency domain. In this figure, we give an example of SpecAugment. 
 
 ![image2](https://github.com/Jingqiao-Zhao/DCASE2020-Task1-SubtaskB/blob/master/fig6_2.png)
