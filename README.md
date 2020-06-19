@@ -16,10 +16,7 @@ Download the [data](https://doi.org/10.5281/zenodo.3670185) and Change the path 
 ```sh
 $ pip install -r requirements.txt
 ```
-```sh
-$ python Data_generator.py
-```
-Then
+
 ```sh
 $ python Train.py
 
@@ -33,11 +30,16 @@ Without sufficient training data, it is crucial to apply data augmentation to th
 To be more specific, we use SpecAugmen to modify spectrum maps by distorting time domain signal, masking the frequency domain channel and the time domain channel. This data augmentation method can be used to increase the robustness of the trained network to combat deformations on the time domain and partial fragment loss on the frequency domain. In this figure, we give an example of SpecAugment. 
 
 ![image2](https://github.com/Jingqiao-Zhao/DCASE2020-Task1-SubtaskB/blob/master/fig6_2.png)
+
 ### Depthwise convolution
 
-![image3](https://github.com/Jingqiao-Zhao/DCASE2020-Task1-SubtaskB/blob/master/figure3.pdf)
+By using depthwise separable convolution, the network architecture of our DD-CNN is shown in Figure. More details of the configuration of each layer of our DD-CNN is shown in model.py. For each convolutional layer, we set the kernel size to 5, padding size to 2 and stride to 1. The fully-connected layer with Disout is used for output.
+
+![image4](https://github.com/Jingqiao-Zhao/DCASE2020-Task1-SubtaskB/blob/master/figure1.png)
 
 ## Results
+
+
 ## References
 D. S. Park, W. Chan, Y. Zhang, C.-C. Chiu, B. Zoph, E. D.Cubuk, and Q. V. Le, “Specaugment: A simple data augmentation method for automatic speech recognition,” arXivpreprint arXiv:1904.08779, 2019.
 
