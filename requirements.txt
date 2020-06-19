@@ -1,0 +1,6 @@
+pytorch
+pandas
+librosa
+matplotlib
+seaborn
+
